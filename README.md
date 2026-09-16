@@ -1,14 +1,21 @@
-# Website v4
+# Issac Yurui Hu website — v6
 
-Report DOI links were rechecked one-by-one against World Bank publication/citation pages.
+v6 moves the site toward a simpler academic/economist profile:
+- only “Issac Yurui Hu” and “胡雨瑞” are shown as names
+- adds Education
+- adds both World Bank and personal email addresses
+- keeps the existing research and report sections
+- remains mobile responsive
+- retains Google indexing metadata, `robots.txt`, and `sitemap.xml`
 
-Verified report DOIs:
-- Working with Industrial Policy — 10.1596/978-1-4648-2326-8
-- Jobs, AI, and Trade — 10.1596/978-1-4648-2291-9
-- From Risk to Resilience — 10.1596/978-1-4648-2152-3
-- Taxing Times — 10.1596/978-1-4648-2230-8
-- Women, Jobs, and Growth — 10.1596/978-1-4648-2170-7
-- Jobs for Resilience — 10.1596/978-1-4648-2103-5
+Keep the existing `headshot.jpg` in the repository root.
 
-Upload `index.html` and `styles.css` to the root of:
-https://github.com/issachu2000/yhu
+Upload/replace:
+- `index.html`
+- `styles.css`
+- `robots.txt`
+- `sitemap.xml`
+- `CNAME`
+- `favicon.svg`
+
+For the public personal email, `yrui.hu11@gmail.com` is suitable as a permanent professional address. To avoid missing messages, set that Gmail account to forward incoming mail to the Gmail account you actually check every day.
