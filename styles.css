@@ -327,67 +327,138 @@ footer{
 .footer-inner a:hover{text-decoration:underline}
 
 @media(max-width:760px){
-  .wrap{width:calc(100% - 32px)}
+  html,body{
+    width:100%;
+    max-width:100%;
+    overflow-x:hidden;
+  }
+
+  .wrap{
+    width:auto;
+    max-width:none;
+    margin-left:20px;
+    margin-right:20px;
+  }
 
   .header-inner{
     display:block;
-    padding:15px 0;
+    padding:14px 0;
   }
 
   .brand{
     display:block;
     margin-bottom:10px;
+    font-size:15px;
   }
 
   nav{
+    display:flex;
     gap:14px;
-    row-gap:7px;
+    row-gap:6px;
+    flex-wrap:wrap;
   }
 
-  nav a{font-size:13px}
+  nav a{font-size:12px}
 
   .profile-section{
-    padding:42px 0 46px;
+    padding:36px 0 44px;
   }
 
   .profile-grid{
-    grid-template-columns:1fr;
-    gap:30px;
+    display:block;
   }
 
   .photo-column{
-    width:min(72vw,280px);
+    width:180px;
+    max-width:180px;
+    margin:0 0 28px 0;
+  }
+
+  .headshot{
+    display:block;
+    width:180px;
+    max-width:180px;
+    height:225px;
+    object-fit:cover;
+    object-position:center 24%;
+    border-radius:3px;
+  }
+
+  .intro-column{
+    width:100%;
+    max-width:100%;
+  }
+
+  .eyebrow{
+    max-width:100%;
+    font-size:10px;
   }
 
   h1{
-    font-size:40px;
+    font-size:38px;
+    line-height:1.08;
+    letter-spacing:-.7px;
+  }
+
+  .chinese-name{
+    margin:6px 0 20px;
+    font-size:17px;
+  }
+
+  .role{
+    font-size:16px;
+    line-height:1.5;
   }
 
   .intro{
-    font-size:19px;
+    width:100%;
+    max-width:100%;
+    font-size:18px;
+    line-height:1.55;
   }
 
   .quick-info{
-    grid-template-columns:1fr;
-    gap:20px;
+    display:block;
+    margin-top:26px;
+  }
+
+  .quick-info>div+div{
+    margin-top:18px;
+  }
+
+  .section{
+    padding:48px 0;
   }
 
   .content-grid{
-    grid-template-columns:1fr;
-    gap:18px;
+    display:block;
   }
 
   .section-label{
-    font-size:23px;
+    margin-bottom:18px;
+    font-size:22px;
   }
 
+  h2{font-size:30px}
+
   .research-list{
-    grid-template-columns:1fr;
+    display:block;
+  }
+
+  .featured-paper{
+    padding:22px 0;
+  }
+
+  .featured-paper h3{
+    font-size:22px;
   }
 
   .report-row{
-    grid-template-columns:1fr;
-    gap:5px;
+    display:block;
+  }
+
+  .report-date{
+    margin-bottom:4px;
   }
 
   .footer-inner{
