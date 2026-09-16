@@ -1,16 +1,14 @@
-# Issac Yurui Hu — Personal Website
+# Website v4
 
-Ready to upload to your GitHub Pages repository.
+Report DOI links were rechecked one-by-one against World Bank publication/citation pages.
 
-## Publish
-1. Open `https://github.com/issachu2000/yhu`
-2. Replace the current `index.html` with this package's `index.html`.
-3. Upload `styles.css` to the repository root.
-4. Commit changes.
-5. Wait 1–2 minutes and refresh `https://issachu2000.github.io/yhu/`.
+Verified report DOIs:
+- Working with Industrial Policy — 10.1596/978-1-4648-2326-8
+- Jobs, AI, and Trade — 10.1596/978-1-4648-2291-9
+- From Risk to Resilience — 10.1596/978-1-4648-2152-3
+- Taxing Times — 10.1596/978-1-4648-2230-8
+- Women, Jobs, and Growth — 10.1596/978-1-4648-2170-7
+- Jobs for Resilience — 10.1596/978-1-4648-2103-5
 
-## Next additions
-- Upload your CV as `cv.pdf`, then we can add a CV button.
-- Upload a headshot as `headshot.jpg` if you want one.
-- Send me your LinkedIn URL and I can add it.
-- Later, point a custom domain such as `yuruihu.com` to GitHub Pages.
+Upload `index.html` and `styles.css` to the root of:
+https://github.com/issachu2000/yhu
